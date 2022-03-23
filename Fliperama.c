@@ -294,8 +294,8 @@ void main()
 		{
 			int retorno5;
 			printf("1) Perguntas e respostas:\nO computador ira fazer 3 perguntas simples, responda-as usando o numero equivalente de cada alternativa\n\n");
-			printf("2) Advinhe o numero:\nO computador ira pensar em um numero aleatorio entre 1 e 1000, voce tem 5 tentativas para advinhar o numero, porem, se voce errar, o computador ira falar se \no numero inserido eh maior ou menor que o numero pensado pelo computador\n\n");
-			printf("3) Olho de cobra:\nDois jogadores irao rolar dois dados por turno, os numeros dos dados serao adicionados a uma pontuacao individual para cada jogador, o jogador pode escolher \njogar de novo ou passar seu turno, o perigo do jogo esta no fato de que se um dos dados rolar em 1, o jogador atual perde a pontuacao daquele turno, e se os dois dados rolarem 1, o jogador perde toda sua pontuacao\n\n");
+			printf("2) Advinhe o numero:\nO computador ira pensar em um numero aleatorio entre 1 e 1000, voce tem 5 tentativas para advinhar o numero, porem,\nse voce errar, o computador ira falar se o numero inserido eh maior ou menor que o numero pensado pelo computador\n\n");
+			printf("3) Olho de cobra:\nDois jogadores irao rolar dois dados por turno, os numeros dos dados serao adicionados a uma pontuacao individual para\ncada jogador, o jogador pode escolher jogar de novo ou passar seu turno, o perigo do jogo esta no fato de que se um \ndos dados rolar em 1, o jogador atual perde a pontuacao daquele turno, e se os dois dados rolarem 1, o jogador\nperde toda sua pontuacao\n\n");
 			printf("4) Retornar\n");
 			scanf("%i", &retorno5);
 			if(retorno5 = 4)
